@@ -4,6 +4,7 @@ namespace Maxim.Areas.Admin.ViewModels.ServiceVm
 {
     public class UpdateServiceVm
     {
+        public int Id { get; set; }
         public IFormFile? Image { get; set; }
         [Required]
         [MinLength(3, ErrorMessage = "Min length 3 letter")]
@@ -13,7 +14,7 @@ namespace Maxim.Areas.Admin.ViewModels.ServiceVm
         [MinLength(3, ErrorMessage = "Min length 3 letter")]
         [MaxLength(30, ErrorMessage = "Max length 30 letter")]
         public string Description { get; set; }
-        [Required]
-        public string ImgUrl { get; set; }
+ 
+        public string? ImgUrl { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NZsiT62SxZQCKohDKjE+YD8w6tCoYa/v/aInAWcZgrRbnXtRyiwQz6GLFoyvM7jN7yRbnl8Xhnu4bHvrJgObRg==",
+  "dgSpecHash": "UGBeK1yVo0zzIXSedPr7b6LNlLjgoW8Z33KFBiZZYeq+0He4h/2tWWXETxkjzXghwk+bTRlwuoZ3lnngNILzlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\Maxim\\Maxim.csproj",
+  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\Exam_code_final\\Maxim\\Maxim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\II novbe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

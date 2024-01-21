@@ -15,7 +15,7 @@ namespace Maxim.Models.Entities
         [MinLength(3, ErrorMessage = "Min length 3 letter")]
         [MaxLength(30, ErrorMessage = "Max length 30 letter")]
         public string Description { get; set; }
-        [Required]
-        public string ImgUrl { get; set; }
+   
+        public string? ImgUrl { get; set; }
     }
 }

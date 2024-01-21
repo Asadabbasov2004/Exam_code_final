@@ -1,4 +1,6 @@
-﻿	<!-- Header area -->
+﻿@using Maxim.Models.Entities
+@model List<Service>;
+	<!-- Header area -->
 <div id="header-wrapper" class="header-slider">
 	<header class="clearfix">
 		<div class="logo">
@@ -125,42 +127,21 @@
 		<h4>Services</h4>
 		<!-- Four columns -->
 		<div class="row">
-			<div class="span3 animated-fast flyIn">
+			@foreach (var item in Model)
+			{
+				<div class="span3 animated-slow flyIn">
 				<div class="service-box">
-					<img src="~/img/icons/laptop.png" alt="" />
-					<h2>Web design</h2>
+					<img src="~/Upload/Images/@item.ImgUrl" alt="" />
+					<h2>@item.Title</h2>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						@item.Description
 					</p>
 				</div>
 			</div>
-			<div class="span3 animated flyIn">
-				<div class="service-box">
-					<img src="~/img/icons/lab.png" alt="" />
-					<h2>Web development</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					</p>
-				</div>
-			</div>
-			<div class="span3 animated-fast flyIn">
-				<div class="service-box">
-					<img src="~/img/icons/camera.png" alt="" />
-					<h2>Photography</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					</p>
-				</div>
-			</div>
-			<div class="span3 animated-slow flyIn">
-				<div class="service-box">
-					<img src="~/img/icons/basket.png" alt="" />
-					<h2>Ecommerce</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					</p>
-				</div>
-			</div>
+			}
+		
+			
+			
 		</div>
 	</div>
 </section>

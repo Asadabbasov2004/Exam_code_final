@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\II novbe\\Desktop\\Maxim\\Maxim.csproj": {}
+    "C:\\Users\\II novbe\\Desktop\\Exam_code_final\\Maxim\\Maxim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\II novbe\\Desktop\\Maxim\\Maxim.csproj": {
+    "C:\\Users\\II novbe\\Desktop\\Exam_code_final\\Maxim\\Maxim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\Maxim\\Maxim.csproj",
+        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\Exam_code_final\\Maxim\\Maxim.csproj",
         "projectName": "Maxim",
-        "projectPath": "C:\\Users\\II novbe\\Desktop\\Maxim\\Maxim.csproj",
+        "projectPath": "C:\\Users\\II novbe\\Desktop\\Exam_code_final\\Maxim\\Maxim.csproj",
         "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\II novbe\\Desktop\\Maxim\\obj\\",
+        "outputPath": "C:\\Users\\II novbe\\Desktop\\Exam_code_final\\Maxim\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

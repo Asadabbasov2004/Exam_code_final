@@ -1,0 +1,22 @@
+﻿@using Maxim.Areas.Admin.ViewModels.ServiceVm
+@model CreateServiceVm;
+
+<form method="post" style="margin-left:600px;background-color:azure;padding:30px" enctype="multipart/form-data">
+    <div style="margin-top:100px" class="mb-3">
+        <label asp-for="Title" class="form-label">Title</label>
+        <input asp-for="Title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <span asp-for="Title"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Description</label>
+        <input asp-for="Description" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <span asp-for="Description"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Image" class="form-label"></label>
+        <input asp-for="Image" class="form-control">
+        <span asp-for="Image"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
